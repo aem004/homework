@@ -16,8 +16,8 @@ console.log(stadium);
     Задание 2:
     
 let S;
-var a = prompt("Введите a: ");
-var b = prompt("Введите b: ");
+var a = +prompt("Введите a: ");
+var b = +prompt("Введите b: ");
 
 S = a * b;
 console.log(S);
@@ -39,11 +39,9 @@ const time = 2;
 const speedOfFirst = 95;
 const speedOfSecond = 114;
 
-let approachspeed;
 let distance;
 
-approachspeed = speedOfFirst + speedOfSecond;
-distance = approachspeed * time;
+distance = (speedOfFirst + speedOfSecond) * time;
 
 console.log(distance);
     
